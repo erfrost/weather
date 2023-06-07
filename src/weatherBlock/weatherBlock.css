@@ -1,0 +1,157 @@
+body {
+    background-image: url("https://img.alicdn.com/imgextra/i4/6000000004192/O1CN011gpyly4zXKMlkPd_!!6000000004192-0-tbvideo.jpg");
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+    overflow: hidden;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.select {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Fredoka One', cursive;
+}
+.weather {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.currentWeather {
+    background-image: url('https://i.pinimg.com/originals/72/b9/ea/72b9eafe11dd6c842f521679d9c9ee19.jpg');
+    background-position-x: left;
+    background-position-y: top;
+    width: 800px;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.weekWeather {
+    background-color: white;
+    width: 800px;
+    height: 300px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.select {
+    width: 250px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #6200ff;
+    border-radius: 8px;
+    border-width: 2px;
+    transition: all 0.1s;
+    font-size: 17px;
+}
+.select:active {
+    background-color: #e4d4ff;
+    width: 255px;
+}
+.tempCountry {
+    font-family: 'Fredoka One', cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+.temp {
+    color: white;
+    font-size: 75px;
+}
+.country {
+    color: white;
+    font-size: 35px;
+    border-bottom:3px solid white; 
+    max-width: 50px;
+    margin-bottom: 125px;
+}
+.cloudCover {
+    color: white;
+    font-size: 30px;
+    opacity: 0.8;
+}
+.dopParams {
+    color: white;
+    font-size: 15px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-left: -27px;
+}
+.verticalLine {
+    width: 2px;
+    height: 45px;
+    background-color: white;
+}
+.vk {
+    width: 325px;
+    height: 300px;
+    background-color:white;
+    border-radius: 20px;
+}
+.line2 {
+    width: 4px;
+    height: 125px;
+    background-color: black;
+    border-radius: 10px;
+}
+.week {
+    width: 471px;
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+    align-items: baseline;
+}
+.oneDay {
+    background: url('./images/pngwing.com4.png');
+    background-position-y: -5px;
+    background-size: 100%;
+    width: 75px;
+    height: 100px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 94px;
+    height: 300px;
+    gap: 35px;
+    flex-grow: 1;
+    transition: all 0.35s;
+}
+.item:hover {
+    background-color:lightskyblue;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+.underText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    width: 40px;
+    font-size: 14px;
+}
+.number {
+    font-size: 30px;
+    margin-top: -20px;
+}
+.underTemp {
+    font-size: 21px;
+}
